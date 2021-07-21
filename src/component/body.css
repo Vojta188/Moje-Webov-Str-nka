@@ -1,0 +1,29 @@
+.box1
+{
+    font-size: 15px;
+}
+
+.card1
+{
+    float: left;
+    border: 40px solid white;
+}
+
+.card2
+{
+    float: left;
+    border: 40px solid white;
+}
+
+.card3
+{
+    border: 40px solid white;
+    float: left;
+    
+}
+
+.ContainerBody
+{
+    border: 3px solid black;
+   
+}
