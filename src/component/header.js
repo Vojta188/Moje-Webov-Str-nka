@@ -15,7 +15,7 @@ return (
     <div className = "headerohraniceni">
           <div className = "headerDiv">
               <div className = "img">
-              <img src={LOGOWEB} alt="Logo" className = "logo" />;
+              <img src={LOGOWEB} alt="Logo" className = "logo" />
               </div>
             <div className = "h1">
             <h1>Crazy TechTips With Me</h1>  

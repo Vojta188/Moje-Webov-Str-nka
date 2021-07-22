@@ -1,0 +1,105 @@
+.email
+{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+
+}
+.emailDiv
+{
+    padding: 3px;
+    
+   
+}
+
+.NameForm
+{
+    border: 3px solid black;
+    height: 600px;
+}
+
+.jmeno_prijmeni
+{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.jmeno_prijmeniDiv
+{
+    padding: 3px;
+}
+
+.druh_zakazky
+{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 3px;
+
+    
+}
+
+.zpravaDiv
+{
+    width: 40%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 3px;
+    border:3px solid white
+    
+}
+
+.zprava
+{
+    width: 130%;
+    height: 200px;
+   
+}
+
+.webovaaplikace,.webovestranky,.hravunity,.mobilniaplikace
+{
+    color: green;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.float
+{
+    float: left;
+    padding: 3%;
+    border: 3px  ;
+}
+
+.center
+{
+    margin-left: 30%;
+    
+}
+.btn
+{
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.button
+{
+    margin-left: 90%;
+    width: 180px;
+    height: 50px;
+    color: #707070;
+    background-color: white;
+    
+    border-radius: 10px;
+}
