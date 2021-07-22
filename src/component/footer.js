@@ -15,6 +15,7 @@ function Footer()
                 <div className = "emailtext">
                 <p>Email: klack0man01@gmail.com</p>
                 </div>
+                
                 <div className = "github">
                 <a href="https://github.com/Vojta188">Github</a>
                 </div>

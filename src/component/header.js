@@ -29,7 +29,8 @@ return (
       alt="First slide"
     />
     <Carousel.Caption>
-      
+    <h3>Vítejte na stránce Crazy TechTips With Me</h3>
+      <p>Jsem programátor a technologický nadšenec.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={500}>
@@ -39,7 +40,9 @@ return (
       alt="Second slide"
     />
     <Carousel.Caption>
-     
+    <h3>Nabízím programátorské služby.</h3>
+    <p>Pro bližší informace stačí vyplnit dotazník dole nebo se ozvat na email.</p>
+      
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -49,7 +52,7 @@ return (
       alt="Third slide"
     />
     <Carousel.Caption>
-      
+    
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
