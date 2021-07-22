@@ -10,7 +10,24 @@ class NameForm extends React.Component
             email:"",
             Jmeno_Prijmeni:"",
             Zpraha:"",
+            webApp:true,
+            webPage:true,
+            Game:true,
+            MobileApp:true
+            
         }
+        this.emailchange = this.emailchange.bind(this);
+        this.Jmeno_PrijmeniChange = this.Jmeno_PrijmeniChange.bind(this);
+    }
+
+    emailchange(value)
+    {
+        this.setState({email:value});
+    }
+
+    Jmeno_PrijmeniChange(value)
+    {
+        this.setState({Jmeno_Prijmeni:value});
     }
 
     render()
