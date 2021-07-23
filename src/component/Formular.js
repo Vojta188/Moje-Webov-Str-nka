@@ -9,7 +9,7 @@ class NameForm extends React.Component
         {
             email:"",
             Jmeno_Prijmeni:"",
-            Zpraha:"",
+            Zprava:"",
             webApp:true,
             webPage:true,
             Game:true,
@@ -17,7 +17,12 @@ class NameForm extends React.Component
             
         }
         this.emailchange = this.emailchange.bind(this);
-        this.Jmeno_PrijmeniChange = this.Jmeno_PrijmeniChange.bind(this);
+        this.Jmeno_PrijmeniChange = this.Jmeno_PrijmeniChange.bind(this); 
+        this.Zpravachange = this.Zpravachange.bind(this);
+        this.webAppchange = this.webAppchange.bind(this);
+        this.webPagechange = this.webPagechange.bind(this);
+        this.Gamechange = this.Gamechange.bind(this);
+        this.MobileAppchange = this.MobileAppchange.bind(this);
     }
 
     emailchange(value)
@@ -28,6 +33,31 @@ class NameForm extends React.Component
     Jmeno_PrijmeniChange(value)
     {
         this.setState({Jmeno_Prijmeni:value});
+    }
+
+    Zpravachange(value)
+    {
+        this.setState({Zprava:value});
+    }
+
+    webAppchange(value)
+    {
+        this.setState({webApp:value});
+    }
+
+    webPagechange(value)
+    {
+        this.setState({webPage:value});
+    }
+
+    Gamechange(value)
+    {
+        this.setState({Game:value});
+    }
+
+    MobileAppchange(value)
+    {
+        this.setState({MobileApp:value});
     }
 
     render()
