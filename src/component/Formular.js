@@ -60,13 +60,18 @@ class NameForm extends React.Component
         this.setState({MobileApp:value});
     }
 
+    handleSubmit(e)
+    {
+        e.preventDefault();
+    }
+
     render()
     {
         return(
             <div className = "NameForm">
                 <div className = "emailDiv">
                     <label className = "center">e-mail</label>
-                <input type = "email" className = "email" id = "email" />
+                <input type = "email" className = "email" id = "email" onChange = {e => this.emailchange(e.target.value)} value = {this.state.email} />
                 </div>
                 <div className = "jmeno_prijmeniDiv">
                 <label className = "center">Jméno a Příjmení</label>
@@ -80,7 +85,7 @@ class NameForm extends React.Component
             <div className = "float">
                 <label>Webové Aplikace </label>
                 <div>
-            <input type ="checkbox" className = "webovaaplikace" id = "webovaaplikace" />
+            <input type ="checkbox" className = "webovaaplikace" id = "webovaaplikace" onChange = {e => this.webAppchange(e.target.type === 'checkbox' ? e.target.checked : e.target.value)} />
             </div>
             </div>
             
