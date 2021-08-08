@@ -27,3 +27,11 @@
     border: 3px 
    
 }
+
+@media only screen and (max-width: 1212px)
+{
+    .card3
+    {
+        clear: both;
+    }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./formular.css";
-const API = "http://localhost:8080/customers"
+
 class NameForm extends React.Component
 {
     constructor(props)

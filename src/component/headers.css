@@ -8,6 +8,7 @@ h1
     font-size: 50px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: orange;
+    cursor: context-menu;
 
 }
 
@@ -19,7 +20,7 @@ h1
 
 .headerDiv
 {
-    border: 3px  ;
+    border: 3px   ;
     
     height: 300px;
     background-color: #D5F1F8;
@@ -39,14 +40,31 @@ h1
 .carousel
 {
     width: 75%;
-    border: 3px ;
+    border: 3px  ;
     margin-left: 14%;
     margin-top: 5%;
 }
 
 .headerohraniceni
 {
-    border: 3px ;
+    border: 3px  ;
     height: 1000px;
 }
 
+@media only screen and (max-width: 1212px)
+{
+    .headerohraniceni
+    {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 414px)
+{
+    .headerohraniceni
+    {
+        height: 300px;
+    }
+    
+    
+}
