@@ -1,6 +1,5 @@
 import React from "react";
 import "./formular.css";
-import axios from "axios";
 const API = "http://localhost:8080/customers"
 class NameForm extends React.Component
 {
@@ -106,29 +105,18 @@ class NameForm extends React.Component
             webova_aplikace:this.state.webSave,
             zprava:this.state.Zprava
         }
-
         
-        fetch('http://localhost:8080/customers', {
-            mode: 'no-cors',
-  method: 'post',
-  headers: {
-    'Accept': 'application/json, text/plain, */*',
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({save})
-}).then(res => res.json())
-  .then(res => console.log(res));
         
-
-
+     fetch("http://localhost:8080/customers", 
+     {
+         method: "POST",
+         headers:{"Content-Type":"application/json"},
+        body:JSON.stringify(save)
+     }).then(()=>{console.log("post data", JSON.stringify(save));})
         
+    
     }
-  
 
-    handleSubmit(e)
-    {
-        e.preventDefault();
-    }
 
     render()
     {
