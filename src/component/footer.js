@@ -15,7 +15,7 @@ function Footer()
                 <p>Jméno: Vojtěch</p>
                 </div>
                 <div className ="prijmenitext">
-                <p>Příjmení: Vrabec</p>
+                <p>Příjmení: </p>
                 </div>
                 <div className = "emailtext">
                 <p>Email: klack0man01@gmail.com</p>
@@ -36,7 +36,7 @@ function Footer()
                 </div>
                 <div className = "linkedin">
                 
-                <a href="https://www.linkedin.com/in/vojt%C4%9Bch-vrabec-58b2b1204/"><img src={LinkedInLogo} alt="LinkedInLogo" className = "LinkedInLogo" /></a>
+                <a href=""><img src={LinkedInLogo} alt="LinkedInLogo" className = "LinkedInLogo" /></a>
                 
                 </div>
                 </div>
