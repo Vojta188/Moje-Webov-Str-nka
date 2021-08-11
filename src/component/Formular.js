@@ -69,8 +69,13 @@ class NameForm extends React.Component
     {
         e.preventDefault()
         
-
+       const numberRandom = Math.floor(Math.random()*10);
+       const numberRandom2 = Math.floor(Math.random()*10);
         
+       let numberPrompt = prompt("Vyplnte pro odeslání formuláře:"+numberRandom + "+" + numberRandom2)
+       
+       if(numberPrompt == numberRandom+numberRandom2)
+       {  
         if(this.state.webApp == true)
         {
             this.state.webSave = "Webová Aplikace"
@@ -113,8 +118,14 @@ class NameForm extends React.Component
          headers:{"Content-Type":"application/json"},
         body:JSON.stringify(save)
      }).then(()=>{console.log("post data", JSON.stringify(save));})
+
+     alert("Formulář odeslán")
         
-    
+       }
+       else
+       {
+        alert("Špatně vyplněno odešlete formulář znovu.") 
+       }
     }
 
 
